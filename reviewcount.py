@@ -35,8 +35,7 @@ def find_unique_occurrence(dataset, colleague):
 # find the first index of a name in a row of a dataframe
 def process_colleague_list(colleagues_List):
     colleague_tributes = {}
-    ty_list = []
-    ta_list = []
+    ty_list, ta_list = [], []
     count = 0
     for colleague in colleagues_List:
         count += 1
